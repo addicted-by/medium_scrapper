@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'medium_scrapper',         # How you named your package folder (MyLib)
   packages = ['medium_scrapper'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.1.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Scrapping tools to get information about medium articles',   # Give a short description about your library
   author = 'Aleksey Ryabykin',                   # Type in your name

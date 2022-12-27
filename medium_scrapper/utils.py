@@ -12,13 +12,11 @@ import threading
 from selenium.webdriver.edge.options import Options
 from typing import Union, Iterator 
 
-columns = ['title', 'link', 'publication', 'author', 'followers', 
+columns = ['title', 'publication', 'link',  'author', 'followers', 
             'reading_time', 'n_words', 'pure_text', 'date', 
             'responses', 'n_code_chunks', 'bold_text_count', 
             'italic_text_count', 'mean_image_width', 'mean_image_height', 
             'n_images', 'n_lists', 'n_vids', 'n_links', 'claps']
-
-
 
 def scrape_page(link: str, options: webdriver.edge.options, 
                 csv_writer: '_csv.writer'=None, 
