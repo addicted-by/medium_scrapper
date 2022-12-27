@@ -3,7 +3,7 @@ setup(
   name = 'medium_scrapper',         # How you named your package folder (MyLib)
   packages = ['medium_scrapper'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
-  license='GNU GENERAL PUBLIC',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
+  license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Scrapping tools to get information about medium articles',   # Give a short description about your library
   author = 'Aleksey Ryabykin',                   # Type in your name
   author_email = 'ras.unlucky@yandex.ru',      # Type in your E-Mail
@@ -23,7 +23,7 @@ setup(
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
     'Topic :: Software Development :: Build Tools',
-    'License :: OSI Approved :: GNU GENERAL PUBLIC License',   # Again, pick a license
+    'License :: OSI Approved :: MIT License',   # Again, pick a license
     'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
